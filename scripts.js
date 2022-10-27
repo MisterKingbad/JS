@@ -105,10 +105,162 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
 // console.log('9' + 5) // 95
 // console.log(Number('9') + 5) // 14
 
+
+
 // Manipulando Strings e Números
 
 // Transformar String em Número e Número em String
 
+// let string = '123'
+// console.log(Number(string))
 
+// let number = 321
+// console.log(String(number))
+
+//----------------------------------------------------------------------------------------------------
+
+// Contar quantos caracteres tem uma palavra e quantos dígitos tem um número
+
+// let word = 'Paralelepípedo'
+// console.log(word.length) // a propriedade length conta a quantidade de caracteres
+
+// let number = 1234
+// console.log(String(number).length) // a função String transforma o número em string e depois conta os caracteres
+
+//----------------------------------------------------------------------------------------------------
+
+// Transformar um número quebrado com 2 casas decimais e trocar ponto por vírgula
+
+// let number = 453557.125445
+// console.log(number.toFixed(2).replace('.', ','))     // a função toFixed arredonda o número para o número de casas decimais que você colocar entre os parênteses/ a função replace substitui o ponto por vírgula .replace('.', ',')
+
+//----------------------------------------------------------------------------------------------------
+
+// Transforme letras minúsculas em maiúsculas. Faça o contrário disso também
+
+// let word = 'Programar é muito bacana!'
+// console.log(word.toUpperCase()) // a função toUpperCase transforma as letras em maiúsculas
+// console.log(word.toLowerCase()) // a função toLowerCase transforma as letras em minúsculas
+
+//----------------------------------------------------------------------------------------------------
+
+// Separe um texto que contém espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _
+
+// let phrase = 'Eu quero viver o Amor!'
+// let myArray = phrase.split(' ') // a função split separa o texto em um array
+// let phraseWithUnderscore = myArray.join('_') // a função join junta o array em um texto e substitui o espaço por _
+
+// console.log(phrase)
+// console.log(myArray)
+// console.log(phraseWithUnderscore)
+// console.log(phraseWithUnderscore.toLowerCase())
+// console.log(phraseWithUnderscore.toUpperCase())
+// toLowerCase()
+// toUperCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// toLOwerCase()
+// toUpperCase()
+// toLowerCase()
+// toLowerCase()
+// toUpperCase()
+// toLowerCase()
+// toUpperCase()
+// .split()
+// .split()
+// .join()
+// .join()
+// .split()
+// .join()
+// .split()
+// .join()
+
+//----------------------------------------------------------------------------------------------------
+
+// Verificar se o texto contém a palavra Amor
+
+// let phrase = 'Eu quero viver o Amor!'
+// console.log(phrase.includes('Amor')) // a função includes verifica se o texto contém a palavra Amor
+// let phrase1 = 'Eu quero viver!'
+// console.log(phrase1.includes('Amor')) // a função includes verifica se o texto contém a palavra Amor
+
+//----------------------------------------------------------------------------------------------------
+
+// Criar Array com construtor
+
+// let myArray = new Array('a', 'b', 'c')
+// console.log(myArray)
+
+//----------------------------------------------------------------------------------------------------
+
+// Contar elementos de um array
+
+// console.log(['a', 'b', 'c'].length)
+// console.log([
+//     'a',
+//     {type: 'array'},
+//     function() {return 'alo'}
+// ][2]())
+// console.log([
+//     'a',
+//     {type: 'array'},
+//     function() {return 'alo'}
+// ][1].type
+// )
+
+//----------------------------------------------------------------------------------------------------
+
+// Transformar uma cadeia de caracteres em elementos de um array
+
+// let word = 'manipulação'
+// console.log(Array.from(word)) // a função Array.from transforma a string em um array
+
+//----------------------------------------------------------------------------------------------------
+
+// Manipulando Arrays
+
+// let techs = ['html', 'css', 'js']
+// console.log(techs)
+// // adicionar um item no fim
+// techs.push('nodejs') // a função push adiciona um item no fim do array
+// console.log(techs) // [ 'html', 'css', 'js', 'nodejs' ]
+// // adicionar um item no começo
+// techs.unshift('sql') // a função unshift adiciona um item no começo do array
+// console.log(techs) // [ 'sql', 'html', 'css', 'js', 'nodejs' ]
+// // remover do fim
+// techs.pop() // a função pop remove o último item do array
+// console.log(techs) // [ 'sql', 'html', 'css', 'js' ]
+// // remover do começo
+// techs.shift() // a função shift remove o primeiro item do array
+// console.log(techs) // [ 'html', 'css', 'js' ]
+// // pegar somente alguns elementos do array
+// console.log(techs.slice(1, 3)) // [ 'css', 'js' ] // a função slice pega os elementos do array de acordo com o índice que você colocar entre os parênteses
+// // remover 1 ou mais itens em qualquer posição do array
+// techs.splice(1, 1) // a função splice remove os itens do array de acordo com o índice que você colocar entre os parênteses
+// console.log(techs) // [ 'html', 'js' ]
+// // encontrar a posição de um elemento no arrayy
+// let index = techs.indexOf('js') // a função indexOf verifica a posição do elemento no array
+// console.log(index) // 1
+
+//----------------------------------------------------------------------------------------------------
+
+/* Expressões e Operadores
+
+- Expressions
+- Operators
+    Binary
+    Unary
+    Ternary
+*/
 
 
