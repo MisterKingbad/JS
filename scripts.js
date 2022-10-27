@@ -377,3 +377,133 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
 // x **= 2 // x = x ** 2 // 0
 // console.log(x)
 
+//----------------------------------------------------------------------------------------------------
+
+// Operadores lógicos (logical operators)
+
+// - 2 valores booleanos, quando verificados, resultará em verdadeiro ou falso
+// resultará em verdadeiro ou falso
+
+// let pao = true
+// let queijo = false
+
+// // AND &&
+// console.log(pao && queijo) // true
+
+// // OR ||
+// console.log(pao || queijo) // true
+
+// // NOT !
+// console.log(!pao) // false
+
+//----------------------------------------------------------------------------------------------------
+
+// Operadores Condicionais (Ternary)
+
+// Dependendo da condição, nós receberemos valores diferentes
+
+// Condição então valor 1 se não valor 2
+// condition ? value1 : value2
+
+// Exemplos
+
+// Café da manhã top
+// let pao = true
+// let queijo = true
+
+// const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim' // && significa que os dois valores tem que ser verdadeiros para que o resultado seja verdadeiro, || significa que um dos valores tem que ser verdadeiro para que o resultado seja verdadeiro, ! significa que o valor tem que ser falso para que o resultado seja verdadeiro ou vice-versa
+
+// console.log(niceBreakfast)
+
+
+// Maior de 18
+
+// let age = 19
+// const canDrive = age >= 18 ? 'can drive' : "can't drive"
+// console.log(canDrive)
+
+//----------------------------------------------------------------------------------------------------
+
+// Operadores de String (String operator)
+
+// comparison (comparação)  
+// console.log('a' == 'b') // false
+// console.log('a' == 'a') // true
+
+// // concatenation (concatenação)
+// // Retorna a união de duas Strings
+// console.log('á' + 'é') // áé
+
+//----------------------------------------------------------------------------------------------------
+
+/*
+    Type conversion (typecasting) vs Type coersion
+*/
+// console.log('9' + 5) // 95  // type coersion
+// console.log(Number('9') + 5) // 14 // type conversion
+
+/*
+    FALSY
+    Quando um valor é considerado false em contextos onde um booleano é obrigatório (condicionais e loops)  
+
+    false
+    0
+    -0
+    ""
+    null
+    undefined   
+    NaN 
+*/
+
+// console.log( false ? 'verdadeiro' : 'falso') // falso
+
+/*
+    TRUTHY
+    Quando um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
+
+    true
+    {}
+    []
+    1
+    3.23
+    "0"
+    "false"
+    -1
+    Infinity
+    -Infinity
+
+
+*/
+
+// console.log( true ? 'verdadeiro' : 'falso') // verdadeiro
+
+//----------------------------------------------------------------------------------------------------  
+
+/*
+    Operator precedence 
+        Precedência de operadores
+
+    * grouping                     ( )
+    * negação e incremento         ! ++ --
+    * multiplicação e divisão      * /
+    * adição e subtração           + -
+    * relacional                   < <= > >=
+    * igualdade                    == != === !==
+    * AND                          &&
+    * OR                           ||
+    * condicional                  ?:
+    * assignment (atribuição)      = += -= *=   
+*/
+
+// console.log( 2 + 5 * 10) // 52
+
+//----------------------------------------------------------------------------------------------------
+
+// Control flow 
+
+// se estiiver sujo
+//console.log('lavar o copo')
+
+// sen não estiver sujo
+//console.log('servir café')  
+
