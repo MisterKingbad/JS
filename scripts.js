@@ -263,4 +263,117 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
     Ternary
 */
 
+// exemplo de ; 
+
+// let number = 1; 
+
+// (function alo() {
+//     console.log('alo')	
+// })()
+
+//exemplo de binario
+// let number = 1
+// console.log(number + 1) // binario porque precisa de dois valores para fazer a soma.
+// //exemplo de unario
+// console.log(++number) // adicão
+// console.log(--number) // subtracão
+// console.log(typeof number)
+// //exemplo de ternario
+// console.log(false ? 'alo' : 'nada') 
+
+//----------------------------------------------------------------------------------------------------  
+
+/*
+    new
+
+    * left-hand-side expression
+    * criar um novo objeto
+    * exemplo: let name = new String('name')
+    * exemplo: let date = new Date('2020-12-01')
+*/
+
+// let name = new String('Irineu')
+// let age = new Number(25)
+// console.log(name, age)
+// let data = new Date('2022-12-30')
+// console.log(data)
+
+//----------------------------------------------------------------------------------------------------
+
+// Operadores de comparação
+
+// Irá comparar valores e retornar um Boolean como resposta à comparação
+
+// let one = 1
+// let two = 2
+
+// // == igualdade (valor)
+// console.log(one == 1) // true
+// console.log(two ==1) // false	
+// console.log(one == "1") // true
+
+// // != diferente (valor)
+// console.log(one != two) // true
+// console.log(one != 1) // false
+// console.log(one != "1") // false
+
+// === estritamente igual (valor e tipo) // a diferença entre o == e o === é que o == compara apenas o valor e o === compara o valor e o tipo
+// console.log(one === 1) // true
+// console.log(one === "1") // false
+
+// !== estritamente diferente (valor e tipo)
+
+// console.log(two !== "2") // true
+// console.log(two !== 2) // false
+// console.log(one !== two) // true
+// console.log(one !== 1) // false
+
+// > maior que
+// console.log(one > two) // false
+
+// // >= maior que ou igual a
+// console.log(one >= 1) // true
+// console.log(two >= 1) // true
+
+// // < menor que
+// console.log(one < two) // true
+
+// // <= menor que ou igual a
+// console.log(one <= two) // true
+// console.log(one <= 1) // true
+// console.log(one <= 0) // false
+
+//----------------------------------------------------------------------------------------------------
+
+// Operadores de atribuição (Assignment)
+
+// let x
+
+// console.log(x)
+
+// // assignment
+// x = 1
+// console.log(x)
+
+// // addition assignment
+// x += 2 // x = x + 2 // 3
+// console.log(x)
+
+// // subtraction assignment
+// x -= 1 // x = x - 1 // 2
+// console.log(x)
+
+// // multiplication assignment
+// x *= 2 // x = x * 2 // 4
+// console.log(x)
+
+// // division assignment  
+// x /= 2 // x = x / 2 // 2
+// console.log(x)
+
+// // remainder, exponetiation
+// x %= 2 // x = x % 2 // 0
+// console.log(x)
+// x **= 2 // x = x ** 2 // 0
+// console.log(x)
 
