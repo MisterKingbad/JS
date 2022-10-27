@@ -579,3 +579,22 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
 
 //     return result
 // }
+
+//----------------------------------------------------------------------------------------------------
+
+// throw // lançar um erro
+
+// function sayMyName(name = '') {
+//     if(name === '') {
+//         throw 'Error: Nome é obrigatório.'
+//     }
+
+//     console.log(`Bem-vindo ${name}`)
+// }
+
+// // try...catch // tentar...capturar
+// try  {
+//     sayMyName('Irineu') 
+// } catch(e) {
+//     console.log(e)
+// }
