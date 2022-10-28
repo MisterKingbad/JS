@@ -653,4 +653,167 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
 //     console.log(person[property])
 // }
 
-// 
+/*
+
+
+    Vamos fortalecer e aplicar os conhecimentos, além de aprender truques e dicas para resolver os desafios e avançar para o próximo nível.
+
+
+*/
+
+/*  ### Transformar notas escolares
+
+crie um algoritmo que transforme as notas do sistema
+numérico para sistema de notas em caracteres tipo A B C 
+
+* de 90 para cima - A
+* entre 80 - 89  -  B
+* entre 70 - 79  -  C
+* entre 60 - 69  -  D
+* menor que 60   -  F
+
+*/
+
+// Tambem pode ser assim 'let gradesA = grade >= 90 && grade <= 100
+
+// function getGrade(grade){
+//     //let grade = 100
+//     let gradesA = 90
+//     let gradesB = 80
+//     let gradesC = 70
+//     let gradesD = 60
+
+//     if  (grade >= gradesA) {
+//         console.log("A")
+//     } else if (grade >= gradesB) {
+//         console.log("B")
+//     } else if(grade >= gradesC) {
+//         console.log("C")
+//     } else if(grade >= gradesD) {
+//         console.log("D")
+//     } else {
+//         console.log("F")
+//     }
+// } // My solution
+
+// getGrade(100)
+
+// function getScore(score) {
+
+
+// function getScore(score) {
+//     scoreA = score >=90 && score <= 100
+//     scoreB = score >=80 && score <= 89
+//     scoreC = score >= 70 && score <= 79
+//     scoreD = score >= 60 && score <= 69
+//     scoreF = score < 60 && score >= 0
+
+//     let finalScore;
+
+//     if (scoreA) {
+//         finalScore = 'A'
+//     } else if(scoreB) {
+//         finalScore = 'B'
+//     }else if(scoreC) {
+//         finalScore = 'C'
+//     } else if(scoreD) {
+//         finalScore = 'D'
+//     } else if(scoreF) {
+//         finalScore = 'F'
+//     } else {
+//         finalScore = 'Nota inválida'
+//     }
+
+//     return finalScore
+// }
+
+// console.log(getScore(-1)) // Other solution
+
+
+/*  ### Sistema de gastos familiar
+
+
+Crie um objeto que possuirá 2 propriedades, ambas do tipo array:
+    * receitas: [] 
+    * despesas: []
+Agora, crie uma função que irá calcular o total de receitas e 
+despesas e irá mostrar uma mensagem se a família está com 
+saldo positivo ou negativo, seguido do valor do saldo.
+
+*/
+// let family ={
+//     incomes: [2500, 3500, 250.43, 360.45],
+//     expenses: [200,500, 100, 150, 1200.00]
+// }
+
+// function sum(array) {
+//     let total = 0
+    
+//     for (let values of array) {
+//         total += values
+//     }
+//     return total
+// }
+
+// function calculateBalance() {
+//     const calculateIncomes = sum(family.incomes) 
+//     const calculateExpenses = sum(family.expenses)
+
+//     const total = calculateIncomes - calculateExpenses
+//     const itsOk = total >= 0 
+
+//     let balanceText = "negativo"
+
+//     if( itsOk ) {
+//         balanceText = "positivo"
+//     }
+
+//     console.log(`Seu saldo é ${balanceText}: R$${total.toFixed(2)}`)
+// }
+
+// calculateBalance()
+
+
+/* ### Celsius em Fahrenheit
+
+    Crie uma função que receba uma string em celsius ou fahrenheit e faça a transformação de uma unidade para outra
+
+    C = (F - 32) * 5/9
+
+    F = C * 9/5 + 32
+
+*/
+
+// function transForm(degree) {
+//     const celsiusExists = degree.toUpperCase().includes('C')    
+//     const fahrenheitExists = degree.toUpperCase().includes('F')
+
+//     // fluxo de erro
+//     if(!celsiusExists && !fahrenheitExists){
+//         throw new Error("Grau não identificado")
+//     }
+
+//     // Fluxo ideal, F -> C
+//     let updateDegree = Number(degree.toUpperCase().replace('F', ''));
+//     let formula = fahrenheit => (fahrenheit - 32) * 5/9 // arrow function
+//     let degreeSign = 'C'
+
+//     // Fluxo alternativo, C -> F
+//     if(celsiusExists) {
+//         updateDegree = Number(degree.toUpperCase().replace('C', ''));
+//         formula = celsius => celsius * 9/5 + 32 // arrow function
+//         degreeSign = 'F'
+//     }
+//     return formula(updateDegree) + degreeSign
+// }
+// try {
+//     console.log(transForm('50f'))
+//     console.log(transForm('10c'))
+//     console.log(transForm('50&'))
+// } catch (e){
+//     console.log(e)
+// }
+
+
+
+
