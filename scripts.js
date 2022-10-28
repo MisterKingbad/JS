@@ -598,3 +598,59 @@ resposta: undefined. O hoisting eleva a variável para o topo do código, mas n�
 // } catch(e) {
 //     console.log(e)
 // }
+
+//----------------------------------------------------------------------------------------------------
+
+// Estruturas de repetição
+// for
+
+// for(let i = 0; i < 10; i++) {
+//     console.log(i) // Enquanto 'i' for menor que '10' faca i++/ i= i+i (adiciona 1 a cada repetição)
+// }
+
+// for(let i = 100; i > 0; i--) {
+//      // Enquanto 'i' for maior que '0' faca i--/ i= i-i (subtraia 1 a cada repetição)
+//     if(i==50){
+//         console.log(Number(i).toFixed().replace('50', '50')) // toFixed() arredonda o número, replace substitui o valor
+//         // break // break para a repetição
+//         continue // continue pula a repetição atual e vai para a próxima
+//     }
+//     console.log(i) // DEIXAR SEMPRE NO FINAL
+// }
+// console.log('FIM')
+
+// while
+// let i = 0
+// while(i <= 10) {
+//     console.log(i)
+//     i++
+
+//     // console.log('Olá')
+// }  //while (enquanto) infinito
+
+// for...of
+// let name = 'Irineu'
+// let names = ['João', 'Paulo', 'Pedro']
+
+// for(let char of name){
+//     console.log(char)	
+// }
+
+// for(let elemests of names){
+//     console.log(elemests)
+// }
+
+// for...in
+
+// let person = {
+//     name: 'Irineu',
+//     age: 30,
+//     weight: 88.6
+// }
+
+// for (let property in person) {
+//     console.log(property)
+//     console.log(person[property])
+// }
+
+// 
